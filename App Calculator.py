@@ -29,6 +29,10 @@ while True:
                     num1 = float(input("Enter your first number: "))
                     num2 = float(input("Enter your second number: "))  
 # Call the add function if the user choose 1
+                    if user_choice == 1:
+                        sum = add(num1, num2)
+                        print("\nResult:", sum)
+
 # Call the subtract function if the user choose 2
 # Call the multiply function if the user choose 3
 # Call the divide function if the user choose 4 
