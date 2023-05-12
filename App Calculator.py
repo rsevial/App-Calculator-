@@ -79,8 +79,9 @@ while True:
         except ZeroDivisionError:
             print("Error! You are dividing by zero.")
 
-# Call for the function display menu
-
+    # Call for the function display menu
+    dispmenu()
+    
 # While loop for the program to continue unless the user stops it
 # Ask the user if he/she wants to continue
 # Continue the program
