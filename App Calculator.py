@@ -75,7 +75,10 @@ while True:
         try:
             quotient = num1 / num2
             return quotient
-# Use the except ZeroDivisionError if the user divided by zero
+        # Use the except ZeroDivisionError if the user divided by zero
+        except ZeroDivisionError:
+            print("Error! You are dividing by zero.")
+
 # Call for the function display menu
 
 # While loop for the program to continue unless the user stops it
