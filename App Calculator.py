@@ -90,5 +90,8 @@ while True:
         if ask_again.casefold() == "yes":
             dispmenu()
             continue
-# Stop the program
+        # Stop the program
+        elif ask_again.casefold() == "no":
+            print("Thank you!")
+            break
 # If what the user inputted is invalid then he/she will be asked to try again
