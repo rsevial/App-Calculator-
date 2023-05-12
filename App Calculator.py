@@ -21,8 +21,8 @@ while True:
         # Use the try and except function to check for the errors
         try:
             user_choice = float(input("\n"+"Enter your choice from 1 to 4: "))
-
-# Add condition when the user inputted an invalid number
+            # Add a condition when the user inputted an invalid number
+            if user_choice <= 4: 
 
 # Ask the user for the two integers then assign them into variables 
 # Call the add function if the user choose 1
