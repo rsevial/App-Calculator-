@@ -44,8 +44,10 @@ while True:
                     elif user_choice == 4:
                         quotient = divide(num1, num2)
                         print("\nResult:", quotient)
-# Use the except ValueError and TypeError if the user entered the wrong values
-
+                    
+                # Use the except ValueError and TypeError if the user entered the wrong values
+                except ValueError:
+                    print("Error! You enter an invalid value! Please try again.\n")    
 # Use an else statement if the user entered an integer greater than 4
 # Use the except ValueError and TypeError if the user entered the wrong values
 
