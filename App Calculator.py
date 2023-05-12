@@ -56,7 +56,7 @@ while True:
             print("Error! You enter an invalid value! Please try again.")
 
     # Define a function which is the sum, which will add the two inputted numbers
-    def add(num1,num2):
+    def addition(num1,num2):
         sum = num1 + num2
         return sum
     
@@ -65,7 +65,11 @@ while True:
         difference = num1 - num2
         return difference
     
-# Define a function which is the multiplication, which will multiply the two inputted numbers
+    # Define a function which is the multiplication, which will multiply the two inputted numbers
+    def multiplication(num1,num2):
+        product = num1 * num2
+        return product
+    
 # Define a function which is the divison, which will divide the two inputted numbers
 # Use the except ZeroDivisionError if the user divided by zero
 # Call for the function display menu
