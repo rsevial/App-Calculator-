@@ -46,7 +46,7 @@ while True:
                         print("\nResult:", quotient)
                     
                 # Use the except ValueError and TypeError if the user entered the wrong values
-                except ValueError:
+                except (ValueError, TypeError):
                     print("Error! You enter an invalid value! Please try again.\n")    
 # Use an else statement if the user entered an integer greater than 4
 # Use the except ValueError and TypeError if the user entered the wrong values
