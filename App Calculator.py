@@ -24,16 +24,18 @@ while True:
             # Add a condition when the user inputted an invalid number
             if user_choice <= 4: 
 
-# Ask the user for the two integers then assign them into variables
-               try:
+                # Ask the user for the two integers then assign them into variables
+                try:
                     num1 = float(input("Enter your first number: "))
                     num2 = float(input("Enter your second number: "))  
-# Call the add function if the user choose 1
+                    # Call the add function if the user choose 1
                     if user_choice == 1:
                         sum = add(num1, num2)
                         print("\nResult:", sum)
-
-# Call the subtract function if the user choose 2
+                    # Call the subtract function if the user choose 2
+                    elif user_choice == 2:
+                        difference = subtract(num1, num2)
+                        print("\nResult:", difference)
 # Call the multiply function if the user choose 3
 # Call the divide function if the user choose 4 
 
