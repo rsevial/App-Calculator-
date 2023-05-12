@@ -7,9 +7,16 @@ print("\033[0;33;47m===========================================")
 print("\033[0;33;47m             " + "\033[0;33;47m\033[1mSIMPLE CALCULATOR\033[0m" + "\033[0;33;47m             ")
 print("\033[0;33;47m===========================================" + "\n")
 
+# Use while loop 
 # Display the main menu of the calculator using user-defined functions
+while True:
+    def dispmenu():
+        print("What operation do you like to do?\n")
+        print("1. Addition")
+        print("2. Subtraction")
+        print("3. Multiplication")
+        print("4. Division")
 
-# Use while loop
 # Ask the user to decide which operator to used
 # Use the try and except function to check error when asking what operator to use
 # Add condition when the user inputted an invalid number
