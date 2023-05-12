@@ -20,11 +20,14 @@ while True:
         # Asks the user to decide which operation to use assigned from numbers 1 to 4
         # Use the try and except function to check for the errors
         try:
-            user_choice = float(input("\n"+"Enter your choice from 1 to 4: "))
+            user_choice = int(input("\n"+"Enter your choice from 1 to 4: "))
             # Add a condition when the user inputted an invalid number
             if user_choice <= 4: 
 
-# Ask the user for the two integers then assign them into variables 
+# Ask the user for the two integers then assign them into variables
+               try:
+                    num1 = float(input("Enter your first number: "))
+                    num2 = float(input("Enter your second number: "))  
 # Call the add function if the user choose 1
 # Call the subtract function if the user choose 2
 # Call the multiply function if the user choose 3
