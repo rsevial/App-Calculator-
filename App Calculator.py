@@ -51,7 +51,9 @@ while True:
             # Use an else statement if the user entered an integer greater than 4
             else:
                 print("Invalid Integer!")
-# Use the except ValueError and TypeError if the user entered the wrong values
+        # Use the except ValueError and TypeError if the user entered the wrong values
+        except (ValueError, TypeError):
+            print("Error! You enter an invalid value! Please try again.")
 
 # Define a function which is the sum, which will add the two inputted numbers
 # Define a function which is the subtraction, which will subtract the two inputted numbers
