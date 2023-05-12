@@ -40,8 +40,10 @@ while True:
                     elif user_choice == 3:
                         product = multiply(num1, num2)
                         print("\nResult:", product)
-# Call the divide function if the user choose 4 
-
+                    # Call the divide function if the user choose 4 
+                    elif user_choice == 4:
+                        quotient = divide(num1, num2)
+                        print("\nResult:", quotient)
 # Use the except ValueError and TypeError if the user entered the wrong values
 
 # Use an else statement if the user entered an integer greater than 4
