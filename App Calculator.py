@@ -72,7 +72,9 @@ while True:
     
     # Define a function which is the divison, which will divide the two inputted numbers
     def divide(num1,num2):
-        quotient = num1 / num2
+        try:
+            quotient = num1 / num2
+            return quotient
 # Use the except ZeroDivisionError if the user divided by zero
 # Call for the function display menu
 
