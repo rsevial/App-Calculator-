@@ -36,7 +36,10 @@ while True:
                     elif user_choice == 2:
                         difference = subtract(num1, num2)
                         print("\nResult:", difference)
-# Call the multiply function if the user choose 3
+                    # Call the multiply function if the user choose 3
+                    elif user_choice == 3:
+                        product = multiply(num1, num2)
+                        print("\nResult:", product)
 # Call the divide function if the user choose 4 
 
 # Use the except ValueError and TypeError if the user entered the wrong values
