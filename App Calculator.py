@@ -94,4 +94,7 @@ while True:
         elif ask_again.casefold() == "no":
             print("Thank you!")
             break
-# If what the user inputted is invalid then he/she will be asked to try again
+        # If what the user inputted is invalid then he/she will be asked to try again
+        else:
+            print("Invalid input!")
+            continue
