@@ -3,6 +3,10 @@
 # App Calcuator
 
 # Print Simple Calculator
+print("\033[0;33;47m===========================================")
+print("\033[0;33;47m             " + "\033[0;33;47m\033[1mSIMPLE CALCULATOR\033[0m" + "\033[0;33;47m             ")
+print("\033[0;33;47m===========================================" + "\n")
+
 # Display the main menu of the calculator using user-defined functions
 
 # Use while loop
