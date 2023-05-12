@@ -81,8 +81,9 @@ while True:
 
     # Call for the function display menu
     dispmenu()
-    
-# While loop for the program to continue unless the user stops it
+
+    # While loop for the program to continue unless the user stops it
+    while True:
 # Ask the user if he/she wants to continue
 # Continue the program
 # Stop the program
