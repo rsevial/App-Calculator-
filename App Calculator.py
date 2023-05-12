@@ -60,7 +60,11 @@ while True:
         sum = num1 + num2
         return sum
     
-# Define a function which is the subtraction, which will subtract the two inputted numbers
+    # Define a function which is the subtraction, which will subtract the two inputted numbers
+    def subtraction(num1,num2):
+        difference = num1 - num2
+        return difference
+    
 # Define a function which is the multiplication, which will multiply the two inputted numbers
 # Define a function which is the divison, which will divide the two inputted numbers
 # Use the except ZeroDivisionError if the user divided by zero
