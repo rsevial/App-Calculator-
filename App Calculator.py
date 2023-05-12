@@ -84,8 +84,11 @@ while True:
 
     # While loop for the program to continue unless the user stops it
     while True:
-    # Ask the user if he/she wants to continue
+        # Ask the user if he/she wants to continue
         ask_again = input("\nDo you still want to continue? (yes/no)")
-# Continue the program
+        # Continue the program
+        if ask_again.casefold() == "yes":
+            dispmenu()
+            continue
 # Stop the program
 # If what the user inputted is invalid then he/she will be asked to try again
