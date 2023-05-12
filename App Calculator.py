@@ -1,6 +1,5 @@
 # Programmed by: Rebekah Joy E. Sevial
-# Assignment 4
-# App Calcuator
+# Simple App Calcuator
 
 # Print Simple Calculator
 print("\033[0;33m===========================================")
