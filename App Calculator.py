@@ -17,8 +17,11 @@ while True:
         print("3. Multiplication")
         print("4. Division")
 
-# Ask the user to decide which operator to used
-# Use the try and except function to check error when asking what operator to use
+        # Asks the user to decide which operation to use assigned from numbers 1 to 4
+        # Use the try and except function to check for the errors
+        try:
+            user_choice = float(input("\n"+"Enter your choice from 1 to 4: "))
+
 # Add condition when the user inputted an invalid number
 
 # Ask the user for the two integers then assign them into variables 
